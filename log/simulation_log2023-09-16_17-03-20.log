@@ -1,0 +1,11 @@
+Sep 16, 2023 5:03:25 PM net.etfbl.pj2.TerminalWatcher readStatus
+SEVERE: An error occurred while reading file: data/terminal_status.txt
+java.io.FileNotFoundException: data (Is a directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at net.etfbl.pj2.TerminalWatcher.readStatus(TerminalWatcher.java:38)
+	at net.etfbl.pj2.TerminalWatcher.run(TerminalWatcher.java:59)
+
